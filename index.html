@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <title>Chandralekha Pathology Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="#test">Tests</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About Us</a>
+    </div>
+    <section id="home">
+        <div id="home">
+            <center>
+                <h1 class="heading" id="heading">Chandralekha Pathology Center</h1>
+            </center>
+            <label id="information">We Are Here For Your Care</label>
+            <br>
+            <label id="information2">Chandralekha Pathology Center</label>
+            <br>
+            <label id="information3">We Are Here For Your care 24x7. Any Help Just Write Us.</label>
+        </div>
+    </section>
+
+    <center>
+        <h1 id="test">Tests</h1>
+    </center>
+    <section id="test">
+
+        
+            <div class="list1">
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true">Blood Tests</li>
+                <li class="list-group-item">Blood Cholesterol Test</li>
+                <li class="list-group-item">Blood Culture</li>
+                <li class="list-group-item">Blood Gases Test</li>
+                <li class="list-group-item">Blood Glucose (Sugar) Test</li>
+            </ul>
+            </div>
+            <div class="list2">
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true">Urine Tests</li>
+                <li class="list-group-item">Glucose Urine Test</li>
+                <li class="list-group-item">Protein Urine Test</li>
+                <li class="list-group-item">Urine pH Level Test</li>
+                <li class="list-group-item">Red Blood Cell Urine Test</li>
+            </ul>
+            </div>
+        </section>
+<br><br><br><br><br>
+<center>
+    <h1 id="cform">Contact With Us.</h1>
+</center>
+            <section id="contact">
+<div id="contact1">
+    
+    <center>
+        <form action="mail.php" method="post">
+            <input type="text" placeholder="Name here" class="text" name="name">
+            <br><br><br>
+            <input type="text" placeholder="Phone No." class="text" name="phone" >
+            <br><br><br>
+            <input type="text" placeholder="Email Id" class="text" name="email">
+            <br><br><br>
+            <textarea name="Message" id="" cols="67" rows="10" id="message" placeholder="Write Message Here" ></textarea>
+            <br>
+        <button id="send" onclick="send()">Submit Now.</button>
+        </form>
+        
+
+    </center>
+
+</div>
+
+            </section>
+        </div>
+   
+</body>
+
+</html>
